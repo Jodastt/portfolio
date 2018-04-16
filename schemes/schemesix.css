@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* body {
+    background-image:
+      linear-gradient(45deg, #ccc 25%, transparent 25%), 
+      linear-gradient(135deg, #ccc 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #ccc 75%),
+      linear-gradient(135deg, transparent 75%, #ccc 75%);
+    background-size:216px 216px;
+    background-position:0 0, 108px 0, 108px -108px, 0px 108px;
+}
+*/
+
+
+.row1:nth-child(odd), .child:nth-child(odd), .flex:nth-child(odd) {
+  background-color: #fc3737;
+}
+.row1:nth-child(even), .child:nth-child(even), .flex:nth-child(even) {
+  background-color: #734545;
+}
+body {
+  position: relative;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+
+
+.navibar {
+  background-color: #0f360ba1;
+  padding-top: 0px;
+  width: 100%;
+  color: #3754fc;
+  fill: currentColor;
+}
+p {
+  background-color: #36a86fa1;
+}
+
+
+.zoom {
+  transition: transform .2s;
+  
+  }
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.svg {
+  fill: #b88e8ea1;
+}
+#z {
+  fill: #7bff00a1
+}
+.h1 {
+    color: #7bff00a1!important;
+  }
